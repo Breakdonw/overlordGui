@@ -1,0 +1,14 @@
+@import "bootswatch/dist/quartz/variables";
+@import 'bootstrap/scss/bootstrap';
+// For the Love of everything
+$theme-colors: (
+"primary":       $pink ,
+"secondary":     rgba($white, .4) ,
+"success":       $green ,
+"info":          $cyan ,
+"warning":       $yellow ,
+"danger":        $orange ,
+"light":         $gray-200 ,
+"dark":          $gray-900 
+);
+@import "bootswatch/dist/quartz/bootswatch.scss";
